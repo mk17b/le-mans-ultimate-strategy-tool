@@ -1,10 +1,10 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'app-strategy-tool',
+  selector: 'app-coming-soon',
   imports: [],
-  templateUrl: './strategy-tool.html',
-  styleUrl: './strategy-tool.sass',
+  templateUrl: './coming-soon.html',
+  styleUrl: './coming-soon.sass',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export default class StrategyTool {}
+export default class ComingSoon {}

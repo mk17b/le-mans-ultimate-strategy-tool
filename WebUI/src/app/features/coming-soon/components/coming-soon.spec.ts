@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import MainLayout from './main-layout';
+import ComingSoon from './coming-soon';
 
-describe('MainLayout', () => {
-  let component: MainLayout;
-  let fixture: ComponentFixture<MainLayout>;
+describe('ComingSoon', () => {
+  let component: ComingSoon;
+  let fixture: ComponentFixture<ComingSoon>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MainLayout],
+      imports: [ComingSoon],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(MainLayout);
+    fixture = TestBed.createComponent(ComingSoon);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

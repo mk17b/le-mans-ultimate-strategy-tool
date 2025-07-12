@@ -1,11 +1,21 @@
 <p-toolbar>
   <ng-template #start>
     <img
-      class="mr-5"
-      src="https://lemansultimate.com/wp-content/themes/motorsport-games/build/img/lm-logo.svg"
       alt="Le Mans Ultimate Logo"
+      class="cursor-pointer"
+      routerLink=""
+      src="https://lemansultimate.com/wp-content/themes/motorsport-games/build/img/lm-logo.svg"
     />
   </ng-template>
+  <ng-template #center>
+    <h1 class="cursor-pointer mr-5" routerLink="/strategy-tool">
+      Strategy Tool
+    </h1>
+    <h1 class="cursor-pointer mr-5" routerLink="/coming-soon">
+      More Tools (Coming Soon)
+    </h1>
+  </ng-template>
+  <ng-template #end></ng-template>
 </p-toolbar>
 
 <div>

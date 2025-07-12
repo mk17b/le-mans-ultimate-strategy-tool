@@ -1,6 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { StrategyTool } from './strategy-tool';
+import StrategyTool from './strategy-tool';
 
 describe('StrategyTool', () => {
   let component: StrategyTool;

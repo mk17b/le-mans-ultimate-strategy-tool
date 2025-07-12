@@ -8,7 +8,17 @@ export const routes: Routes = [
       {
         path: '',
         loadComponent: () =>
+          import('./features/landing-page/components/landing-page'),
+      },
+      {
+        path: 'strategy-tool',
+        loadComponent: () =>
           import('./features/strategy-tool/components/strategy-tool'),
+      },
+      {
+        path: 'coming-soon',
+        loadComponent: () =>
+          import('./features/coming-soon/components/coming-soon'),
       },
     ],
   },
