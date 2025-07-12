@@ -1,14 +1,12 @@
 p-toolbar
-  --p-toolbar-background: black
   height: 72px
-  padding: 0 224px
-  border: none
+  padding: 0 220px
+  --p-toolbar-background: black
 
 div
   height: calc(100vh - 72px)
-  width: 100%
-  background-color: rgba(255, 29, 67, 0.1)
   background-image: url('https://lemansultimate.com/wp-content/themes/motorsport-games/build/img/gradient.png')
+  background-color: rgba(255, 29, 67, 0.1)
   background-size: cover
   background-blend-mode: hue
   filter: saturate(1.5)
@@ -17,18 +15,16 @@ h1
   font-family: Dharma Gothic E, sans-serif
   font-size: 1.75rem
   font-weight: 400
-  cursor: pointer
-  margin-right: 1.25rem
   position: relative
 
   &::after
     content: ''
     position: absolute
-    left: 0
     right: 0
+    left: 0
     height: 2px
-    background-color: currentColor
     bottom: -4px
+    background-color: currentColor
     opacity: 0
     transition: opacity 0.5s ease
 
