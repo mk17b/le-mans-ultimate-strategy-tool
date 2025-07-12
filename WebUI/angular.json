@@ -30,6 +30,7 @@
               }
             ],
             "styles": [
+              "node_modules/primeflex/primeflex.css",
               "src/styles.sass"
             ]
           },
@@ -88,6 +89,7 @@
               }
             ],
             "styles": [
+              "node_modules/primeflex/primeflex.css",
               "src/styles.sass"
             ]
           }
