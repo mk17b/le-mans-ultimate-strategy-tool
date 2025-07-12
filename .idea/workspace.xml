@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95f61a5f-2f4e-417f-a1f7-bf0d84972d25" name="Changes" comment="" />
+    <list default="true" id="95f61a5f-2f4e-417f-a1f7-bf0d84972d25" name="Changes" comment="WebUI init">
+      <change beforePath="$PROJECT_DIR$/WebUI/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mk17b"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mk17b/le-mans-ultimate-strategy-tool.git",
+    "accountId": "76436958-8377-40a0-9dac-316c9cb493cc"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -19,6 +40,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "trusted.hosts",
     "vue.rearranger.settings.migration": "true"
@@ -44,10 +66,24 @@
       <workItem from="1752329167720" duration="20000" />
       <workItem from="1752329190374" duration="55000" />
       <workItem from="1752329248025" duration="142000" />
+      <workItem from="1752329409832" duration="269000" />
     </task>
+    <task id="LOCAL-00001" summary="WebUI init">
+      <option name="closed" value="true" />
+      <created>1752329608375</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752329608375</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="WebUI init" />
+    <option name="LAST_COMMIT_MESSAGE" value="WebUI init" />
   </component>
 </project>
