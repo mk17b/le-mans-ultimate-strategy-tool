@@ -1,8 +1,9 @@
-<div class="card-row-wrapper flex flex-column align-items-center">
+<div class="flex flex-column align-items-center">
   <h1 class="my-6">COMING SOON</h1>
-  <div class="card-row flex gap-6 justify-content-center flex-wrap">
+
+  <div class="flex gap-6">
     @for (feature of features; track feature.name) {
-      <p-card class="custom-card full-bg-card">
+      <p-card class="full-bg-card">
         <div
           class="card-background"
           [ngStyle]="{ 'background-image': 'url(' + feature.image + ')' }"

@@ -2,20 +2,22 @@
   <ng-template #start>
     <img
       class="cursor-pointer"
-      alt="Le Mans Ultimate Logo"
       routerLink=""
       src="https://lemansultimate.com/wp-content/themes/motorsport-games/build/img/lm-logo.svg"
+      alt="Le Mans Ultimate Logo"
     />
   </ng-template>
+
   <ng-template #center>
-    <h1 class="cursor-pointer mr-5" routerLink="strategy-tool">
+    <h1 class="cursor-pointer mr-3" routerLink="strategy-tool">
       Strategy Tool
     </h1>
-    <h1 class="cursor-pointer mr-5" routerLink="coming-soon">More Features</h1>
+    <h1 class="cursor-pointer ml-3" routerLink="coming-soon">More Features</h1>
   </ng-template>
-  <ng-template #end></ng-template>
+
+  <ng-template #end />
 </p-toolbar>
 
-<div>
-  <router-outlet></router-outlet>
+<div class="flex flex-column justify-content-center align-items-center">
+  <router-outlet />
 </div>
