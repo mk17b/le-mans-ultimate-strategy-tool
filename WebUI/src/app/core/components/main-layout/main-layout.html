@@ -1,4 +1,4 @@
-<p-toolbar class="border-none">
+<p-toolbar class="flex-nowrap border-none px-8 py-0">
   <ng-template #start>
     <img
       class="cursor-pointer"
@@ -9,15 +9,27 @@
   </ng-template>
 
   <ng-template #center>
-    <h1 class="cursor-pointer mr-3" routerLink="strategy-tool">
-      Strategy Tool
-    </h1>
-    <h1 class="cursor-pointer ml-3" routerLink="coming-soon">More Features</h1>
+    <div class="flex gap-4">
+      <h1
+        class="relative text-3xl font-normal cursor-pointer white-space-nowrap"
+        routerLink="strategy-tool"
+      >
+        Strategy Tool
+      </h1>
+      <h1
+        class="relative text-3xl font-normal cursor-pointer white-space-nowrap"
+        routerLink="coming-soon"
+      >
+        More Features
+      </h1>
+    </div>
   </ng-template>
 
   <ng-template #end />
 </p-toolbar>
 
-<div class="flex flex-column justify-content-center align-items-center">
+<div
+  class="background flex flex-column justify-content-center align-items-center"
+>
   <router-outlet />
 </div>

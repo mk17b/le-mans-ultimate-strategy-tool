@@ -1,21 +1,8 @@
 p-toolbar
-  height: 72px
-  padding: 0 220px
   --p-toolbar-background: black
-
-div
-  height: calc(100vh - 72px)
-  background-image: url('https://lemansultimate.com/wp-content/themes/motorsport-games/build/img/gradient.png')
-  background-color: rgba(255, 29, 67, 0.1)
-  background-size: cover
-  background-blend-mode: hue
-  filter: saturate(1.5)
 
 h1
   font-family: Dharma Gothic E, sans-serif
-  font-size: 1.75rem
-  font-weight: 400
-  position: relative
 
   &::after
     content: ''
@@ -30,3 +17,11 @@ h1
 
   &:hover::after
     opacity: 1
+
+.background
+  height: calc(100vh - 72px)
+  background-image: url('https://lemansultimate.com/wp-content/themes/motorsport-games/build/img/gradient.png')
+  background-color: rgba(255, 29, 67, 0.1)
+  background-size: cover
+  background-blend-mode: hue
+  filter: saturate(1.5)
